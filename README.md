@@ -60,6 +60,12 @@ located in the gnat directory in a package named System.Text_IO
 The checks on PLL and power initialization have been disabled as a workaround for sloppy QEMU emulation.
 
 ### Building
+
+Create the user directories if missing:
+```
+mkdir gnat_user gnarl_user
+```
+
 First build the runtime:
 ```
 alr exec -- gprbuild -P runtime_build.gpr

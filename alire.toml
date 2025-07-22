@@ -4,11 +4,5 @@ version = "0.1.0"
 licenses = "MIT"
 authors = []
 
-[configuration]
-disabled = false
-
 [[depends-on]]
 gnat_arm_elf = "=15.1.2"
-
-[[depends-on]]
-gprbuild = "=24.0.1"
