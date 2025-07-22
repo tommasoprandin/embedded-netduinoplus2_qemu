@@ -1,0 +1,164 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U gnat.string_split%b	g-strspl.ads		dbf24c7a NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W gnat%s		gnat.ads		gnat.ali
+W gnat.array_split%s
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+U gnat.string_split%s	g-strspl.ads		7a85b1c8 EB EE OL PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.array_split%s
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-charac.ads		20250721163518 2d3ec45b ada.characters%s
+D a-chlat1.ads		20250721163518 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250721163518 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250721163518 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250721163518 17477cbd ada.streams%s
+D a-string.ads		20250721163518 90ac6797 ada.strings%s
+D a-strmap.ads		20250721163518 1f91ebb6 ada.strings.maps%s
+D a-strmap.adb		20250721163518 3facb934 ada.strings.maps%b
+D a-sttebu.ads		20250721163518 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250721163518 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250721163518 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250721163518 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20250721163518 b5988c27 gnat%s
+D g-arrspl.ads		20250721163518 0b7e9a23 gnat.array_split%s
+D g-arrspl.adb		20250721163518 44e1e8b2 gnat.array_split%b
+D g-strspl.ads		20250721163518 dbf24c7a gnat.string_split%s
+D g-strspl.ads		20250721163518 dbf24c7a gnat.string_split%b
+D interfac.ads		20250721163518 9111f9c1 interfaces%s
+D system.ads		20250721163518 00104290 system%s
+D s-bitops.ads		20250721163518 cdf3ac3c system.bit_ops%s
+D s-finpri.ads		20250721163518 5970d55a system.finalization_primitives%s
+D s-finpri.adb		20250721163518 02c85f69 system.finalization_primitives%b
+D s-finroo.ads		20250721163518 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250721163518 e4b161c5 system.os_locks%s
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-putima.ads		20250721163518 17291fe4 system.put_images%s
+D s-retsta.ads		20250721163518 0f6b06cb system.return_stack%s
+D s-secsta.ads		20250721163518 bd894d4b system.secondary_stack%s
+D s-soflin.ads		20250721163518 3a2550af system.soft_links%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250721163518 ccded4e8 system.storage_elements%s
+D s-stratt.ads		20250721163518 516607ae system.stream_attributes%s
+D s-stratt.adb		20250721163518 c8964632 system.stream_attributes%b
+D s-statxd.ads		20250721163518 b54789f6 system.stream_attributes.xdr%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250721163518 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [create gnat__string_split 88 14 39_1]
+G c Z s s [create gnat__string_split 93 13 39_1]
+G c Z s s [create gnat__string_split 106 14 39_1]
+G c Z s s [create gnat__string_split 111 13 39_1]
+G c Z s s [set gnat__string_split 117 14 39_1]
+G c Z s s [set gnat__string_split 124 14 39_1]
+G c Z s s [slice_count gnat__string_split 133 13 39_1]
+G c Z s s [first_cursor gnat__string_split 136 13 39_1]
+G c Z s s [advance gnat__string_split 137 13 39_1]
+G c Z s s [has_element gnat__string_split 140 13 39_1]
+G c Z s s [slice gnat__string_split 145 13 39_1]
+G c Z s s [separators gnat__string_split 161 13 39_1]
+G c Z s s [separators gnat__string_split 172 13 39_1]
+G c Z s s [initialize gnat__string_split 207 25 39_1]
+G c Z s s [adjust gnat__string_split 208 25 39_1]
+G c Z s s [finalize gnat__string_split 209 25 39_1]
+G c Z s s [slice_setDA gnat__string_split 203 9 39_1]
+G c Z s s [slice_setDF gnat__string_split 203 9 39_1]
+G c Z s s [slice_setIP gnat__string_split 203 9 39_1]
+G c Z s s [Tslice_separatorsBIP gnat__string_split 155 4 39_1]
+G c Z s s [separators_indexesIP gnat__string_split 170 9 39_1]
+G c Z s s [slice_infoIP gnat__string_split 183 9 39_1]
+G c Z s s [slices_indexesIP gnat__string_split 189 9 39_1]
+G c Z s s [dataIP gnat__string_split 194 9 39_1]
+G c Z s s [free gnat__string_split 36 14 39_1]
+G c Z s s [free gnat__string_split 39 14 39_1]
+G c Z s s [count gnat__string_split 42 13 39_1]
+X 1 ada.ads
+18K9*Ada 22e8 20|36r6 36r28
+X 8 a-string.ads
+16K13*Strings 35e16 20|36r10 36r32
+X 9 a-strmap.ads
+51K21*Maps 650e21 20|36w18 42r24 43r24 44r24
+62A9*Character_Set<370A9> 20|42r29
+181V13*Is_In{boolean} 20|44r29
+222V13*To_Set{62A9} 20|43r29
+370A9 Character_Set_Internal(boolean)<character>
+X 16 gnat.ads
+40K9*GNAT 63e9 20|37r6 39r9 39r34
+X 17 g-arrspl.ads
+39E9 Element 20|40r4
+42A9 Element_Sequence(39E9)<integer> 20|41r4
+45+9 Element_Set 20|42r4
+51V18 To_Set{45+9} 20|43r4
+55V18 Is_In{boolean} 20|44r4
+58k14*Array_Split 211e21 20|37w11 39r39
+X 20 g-strspl.ads
+39K14*String_Split[17|58] 16|40k9
+

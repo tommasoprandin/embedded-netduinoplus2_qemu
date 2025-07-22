@@ -1,0 +1,255 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+
+U system.arith_64%b	s-arit64.adb		afdc38b2 NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+Z ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.arith_double%s
+W system.spark%s	s-spark.ads		s-spark.ali
+Z system.spark.cut_operations%s  s-spcuop.adb	s-spcuop.ali
+
+U system.arith_64%s	s-arit64.ads		44a78242 NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-assert.ads		20250721163518 ba465f5c ada.assertions%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-numeri.ads		20250721163518 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250721163518 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250721163518 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20250721163518 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250721163518 9111f9c1 interfaces%s
+D system.ads		20250721163518 00104290 system%s
+D s-arit64.ads		20250721163518 e45973b2 system.arith_64%s
+D s-arit64.adb		20250721163518 7f2cc2ac system.arith_64%b
+D s-aridou.ads		20250721163518 34a989ac system.arith_double%s
+D s-aridou.adb		20250721163518 913ca780 system.arith_double%b
+D s-assert.ads		20250721163518 9c4520c7 system.assertions%s
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-spark.ads		20250721163518 53f1c39d system.spark%s
+D s-spcuop.ads		20250721163518 316dcc2a system.spark.cut_operations%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [to_big_integer system__arith_64__signed_conversion 119 16 65_4]
+G c Z s s [from_big_integer system__arith_64__signed_conversion 124 16 65_4]
+G c Z s s [big system__arith_64 69 13 none]
+G c Z s s [in_int64_range system__arith_64 73 13 none]
+G c Z s b [add_with_ovflo_check64 system__arith_64 78 13 none]
+G c Z s b [subtract_with_ovflo_check64 system__arith_64 96 13 none]
+G c Z s b [multiply_with_ovflo_check64 system__arith_64 108 13 none]
+G c Z s s [same_sign system__arith_64 122 13 none]
+G c Z s b [round_quotient system__arith_64 128 13 none]
+G c Z s b [scaled_divide64 system__arith_64 138 14 none]
+G c Z s b [double_divide64 system__arith_64 189 14 none]
+G c Z b b [to_big_integer system__arith_64__impl__signed_conversion 119 16 75_4_44_4]
+G c Z b b [from_big_integer system__arith_64__impl__signed_conversion 124 16 75_4_44_4]
+G c Z b b [big system__arith_64__impl 78 13 44_4]
+G c Z b b [to_big_integer system__arith_64__impl__unsigned_conversion 140 16 84_4_44_4]
+G c Z b b [from_big_integer system__arith_64__impl__unsigned_conversion 145 16 84_4_44_4]
+G c Z b b [big system__arith_64__impl 87 13 44_4]
+G c Z b b [in_double_int_range system__arith_64__impl 93 13 44_4]
+G c Z b b [add_with_ovflo_check system__arith_64__impl 99 13 44_4]
+G c Z b b [subtract_with_ovflo_check system__arith_64__impl 117 13 44_4]
+G c Z b b [multiply_with_ovflo_check system__arith_64__impl 129 13 44_4]
+G c Z b b [same_sign system__arith_64__impl 143 13 44_4]
+G c Z b b [round_quotient system__arith_64__impl 149 13 44_4]
+G c Z b b [scaled_divide system__arith_64__impl 159 14 44_4]
+G c Z b b [double_divide system__arith_64__impl 204 14 44_4]
+G c Z b b [to_uns system__arith_64__impl 61 13 44_4]
+G c Z b b [to_int system__arith_64__impl 62 13 44_4]
+G c Z b b [Oadd system__arith_64__impl 107 13 44_4]
+G c Z b b [Oadd system__arith_64__impl 109 13 44_4]
+G c Z b b [Omultiply system__arith_64__impl 113 13 44_4]
+G c Z b b [Odivide system__arith_64__impl 117 13 44_4]
+G c Z b b [Oconcat system__arith_64__impl 123 13 44_4]
+G c Z b b [Oabs system__arith_64__impl 127 13 44_4]
+G c Z b b [Orem system__arith_64__impl 136 13 44_4]
+G c Z b b [big_2xx system__arith_64__impl 142 13 44_4]
+G c Z b b [big3 system__arith_64__impl 150 13 44_4]
+G c Z b b [le3 system__arith_64__impl 158 13 44_4]
+G c Z b b [lo system__arith_64__impl 163 13 44_4]
+G c Z b b [hi system__arith_64__impl 167 13 44_4]
+G c Z b b [sub3 system__arith_64__impl 171 14 44_4]
+G c Z b b [to_neg_int system__arith_64__impl 177 13 44_4]
+G c Z b b [to_pos_int system__arith_64__impl 186 13 44_4]
+G c Z b b [raise_error system__arith_64__impl 194 14 44_4]
+G c Z b b [inline_le3 system__arith_64__impl 203 14 44_4]
+G c Z b b [lemma_abs_commutation system__arith_64__impl 209 14 44_4]
+G c Z b b [lemma_abs_div_commutation system__arith_64__impl 214 14 44_4]
+G c Z b b [lemma_abs_mult_commutation system__arith_64__impl 220 14 44_4]
+G c Z b b [lemma_abs_range system__arith_64__impl 225 14 44_4]
+G c Z b b [lemma_abs_rem_commutation system__arith_64__impl 232 14 44_4]
+G c Z b b [lemma_add_commutation system__arith_64__impl 238 14 44_4]
+G c Z b b [lemma_add_one system__arith_64__impl 244 14 44_4]
+G c Z b b [lemma_big_of_double_uns system__arith_64__impl 250 14 44_4]
+G c Z b b [lemma_big_of_double_uns_of_single_uns system__arith_64__impl 255 14 44_4]
+G c Z b b [lemma_bounded_powers_of_2_increasing system__arith_64__impl 261 14 44_4]
+G c Z b b [lemma_concat_definition system__arith_64__impl 267 14 44_4]
+G c Z b b [lemma_deep_mult_commutation system__arith_64__impl 273 14 44_4]
+G c Z b b [lemma_div_commutation system__arith_64__impl 282 14 44_4]
+G c Z b b [lemma_div_definition system__arith_64__impl 288 14 44_4]
+G c Z b b [lemma_div_ge system__arith_64__impl 298 14 44_4]
+G c Z b b [lemma_div_lt system__arith_64__impl 304 14 44_4]
+G c Z b b [lemma_div_eq system__arith_64__impl 310 14 44_4]
+G c Z b b [lemma_div_mult system__arith_64__impl 316 14 44_4]
+G c Z b b [lemma_double_big_2xxsingle system__arith_64__impl 321 14 44_4]
+G c Z b b [lemma_double_shift system__arith_64__impl 326 14 44_4]
+G c Z b b [lemma_double_shift system__arith_64__impl 334 14 44_4]
+G c Z b b [lemma_double_shift system__arith_64__impl 340 14 44_4]
+G c Z b b [lemma_double_shift_left system__arith_64__impl 346 14 44_4]
+G c Z b b [lemma_double_shift_left system__arith_64__impl 354 14 44_4]
+G c Z b b [lemma_double_shift_right system__arith_64__impl 360 14 44_4]
+G c Z b b [lemma_double_shift_right system__arith_64__impl 368 14 44_4]
+G c Z b b [lemma_ge_commutation system__arith_64__impl 374 14 44_4]
+G c Z b b [lemma_ge_mult system__arith_64__impl 380 14 44_4]
+G c Z b b [lemma_gt_commutation system__arith_64__impl 386 14 44_4]
+G c Z b b [lemma_gt_mult system__arith_64__impl 392 14 44_4]
+G c Z b b [lemma_hi_lo system__arith_64__impl 398 14 44_4]
+G c Z b b [lemma_hi_lo_3 system__arith_64__impl 405 14 44_4]
+G c Z b b [lemma_lo_is_ident system__arith_64__impl 411 14 44_4]
+G c Z b b [lemma_lt_commutation system__arith_64__impl 417 14 44_4]
+G c Z b b [lemma_lt_mult system__arith_64__impl 423 14 44_4]
+G c Z b b [lemma_mult_commutation system__arith_64__impl 429 14 44_4]
+G c Z b b [lemma_mult_commutation system__arith_64__impl 436 14 44_4]
+G c Z b b [lemma_mult_commutation system__arith_64__impl 442 14 44_4]
+G c Z b b [lemma_mult_decomposition system__arith_64__impl 448 14 44_4]
+G c Z b b [lemma_mult_distribution system__arith_64__impl 465 14 44_4]
+G c Z b b [lemma_mult_div system__arith_64__impl 470 14 44_4]
+G c Z b b [lemma_mult_non_negative system__arith_64__impl 476 14 44_4]
+G c Z b b [lemma_mult_non_positive system__arith_64__impl 483 14 44_4]
+G c Z b b [lemma_mult_positive system__arith_64__impl 490 14 44_4]
+G c Z b b [lemma_neg_div system__arith_64__impl 497 14 44_4]
+G c Z b b [lemma_neg_rem system__arith_64__impl 503 14 44_4]
+G c Z b b [lemma_not_in_range_big2xx64 system__arith_64__impl 509 14 44_4]
+G c Z b b [lemma_powers system__arith_64__impl 514 14 44_4]
+G c Z b b [lemma_powers_of_2 system__arith_64__impl 520 14 44_4]
+G c Z b b [lemma_powers_of_2_commutation system__arith_64__impl 530 14 44_4]
+G c Z b b [lemma_powers_of_2_increasing system__arith_64__impl 538 14 44_4]
+G c Z b b [lemma_rem_abs system__arith_64__impl 545 14 44_4]
+G c Z b b [lemma_rem_commutation system__arith_64__impl 552 14 44_4]
+G c Z b b [lemma_rem_is_ident system__arith_64__impl 558 14 44_4]
+G c Z b b [lemma_rem_sign system__arith_64__impl 565 14 44_4]
+G c Z b b [lemma_rev_div_definition system__arith_64__impl 572 14 44_4]
+G c Z b b [lemma_shift_left system__arith_64__impl 578 14 44_4]
+G c Z b b [lemma_shift_right system__arith_64__impl 585 14 44_4]
+G c Z b b [lemma_shift_without_drop system__arith_64__impl 591 14 44_4]
+G c Z b b [lemma_simplify system__arith_64__impl 603 14 44_4]
+G c Z b b [lemma_substitution system__arith_64__impl 609 14 44_4]
+G c Z b b [lemma_subtract_commutation system__arith_64__impl 615 14 44_4]
+G c Z b b [lemma_subtract_double_uns system__arith_64__impl 621 14 44_4]
+G c Z b b [lemma_word_commutation system__arith_64__impl 627 14 44_4]
+X 1 ada.ads
+18K9*Ada 22e8 11|50r6 56r13 62r6 66r6 74r7
+X 4 a-numeri.ads
+20K13*Numerics 36e17 11|50r10 56r17 62r10 66r10 74r11
+X 5 a-nubinu.ads
+19K22*Big_Numbers 30e29 11|50r19 56r26 62r19 66r19 74r20
+X 9 interfac.ads
+47K9*Interfaces 247e15 11|51w6 57r13 59r21 12|39r21 40r21 42r8
+68I9*Integer_64<long_long_integer> 11|57r24 59r32
+92M9*Unsigned_32 12|40r32
+95M9*Unsigned_64 12|39r32
+154V13*Shift_Left{92M9} 13|52i18
+179V13*Shift_Left{95M9} 13|46i18
+184V13*Shift_Right{95M9} 13|49i18
+X 10 system.ads
+50K9*System 167e11 11|53r9 236r5 12|33r6 35r14 70r5
+X 11 s-arit64.ads
+53K16*Arith_64 10|50k9 11|236l12 236e20 12|35b21 70l12 70t20
+59I12*Int64{9|68I9} 67r14 69r24 75r19 75r38 78r44 78r58 96r49 96r63 108r49
+. 108r63 123r16 124r26 125r27 125r51 132r34 132r53 133r45 134r25 139r17 140r21
+. 184r17 185r21 190r17 191r21 231r17 232r21 12|44r38 46r44 46r58 49r49 49r63
+. 52r49 52r63 59r17 60r21 65r17 66r21
+78V13*Add_With_Ovflo_Check64{59I12} 78>37 78>40 81r14 12|46b13
+78i37 X{59I12} 80r35 81r46 12|46b37
+78i40 Y{59I12} 80r45 81r50 12|46b40
+96V13*Subtract_With_Ovflo_Check64{59I12} 96>42 96>45 99r14 12|49b13
+96i42 X{59I12} 98r35 99r51 12|49b42
+96i45 Y{59I12} 98r45 99r55 12|49b45
+108V13*Multiply_With_Ovflo_Check64{59I12} 108>42 108>45 111r14 112i<c,__gnat_mulv64>22
+. 12|52b13
+108i42 X{59I12} 110r35 111r51 12|52b42
+108i45 Y{59I12} 110r45 111r55 12|52b45
+138U14*Scaled_Divide64 139>7 139>10 139>13 140<7 140<10 141>7 186r34 12|58b14
+139i7 X{59I12} 145r46 146r46 147r46 148r21 149r29 152r44 153r44 155r28 12|59b7
+139i10 Y{59I12} 145r56 146r56 147r56 148r31 149r39 152r54 153r54 155r38 12|59b10
+139i13 Z{59I12} 143r14 145r65 146r66 147r68 148r41 149r51 152r63 153r64 155r48
+. 12|59b13
+140i7 Q{59I12} 152r18 155r18 12|60b7
+140i10 R{59I12} 149r19 153r73 12|60b10
+141b7 Round{boolean} 145r14 151r14 12|61b7
+183U14*Scaled_Divide=186:34
+184i7 X{59I12}
+184i10 Y{59I12}
+184i13 Z{59I12}
+185i7 Q{59I12}
+185i10 R{59I12}
+186b7 Round{boolean}
+189U14*Double_Divide64 190>7 190>10 190>13 191<7 191<10 192>7 233r34 12|64b14
+190i7 X{59I12} 197r46 198r46 199r46 200r21 201r29 204r44 205r44 207r28 12|65b7
+190i10 Y{59I12} 194r14 197r55 198r57 199r59 200r32 201r42 204r53 205r55 207r39
+. 12|65b10
+190i13 Z{59I12} 195r17 197r65 198r67 199r69 200r42 201r52 204r63 205r65 207r49
+. 12|65b13
+191i7 Q{59I12} 204r18 207r18 12|66b7
+191i10 R{59I12} 201r19 205r75 12|66b10
+192b7 Round{boolean} 197r14 203r14 12|67b7
+230U14*Double_Divide=233:34
+231i7 X{59I12}
+231i10 Y{59I12}
+231i13 Z{59I12}
+232i7 Q{59I12}
+232i10 R{59I12}
+233b7 Round{boolean}
+X 12 s-arit64.adb
+39M12 Uns64{9|95M9} 44r45
+40M12 Uns32{9|92M9} 44r52
+44K12 Impl[13|55] 47r14 50r14 53r14 56r14 62r14 68r14
+X 13 s-aridou.ads
+55k16*Arith_Double 12|33w13 44r24 13|245e24
+99V13*Add_With_Ovflo_Check{9|68I9} 12|47r19[44]
+117V13*Subtract_With_Ovflo_Check{9|68I9} 12|50r19[44]
+129V13*Multiply_With_Ovflo_Check{9|68I9} 12|53r19[44]
+159U14*Scaled_Divide 12|62r19[44]
+204U14*Double_Divide 12|68r19[44]
+

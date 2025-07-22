@@ -1,0 +1,9 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.adb"
+node: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.adb:system__arith_32__raise_error" label: "Raise_Error\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.adb:263:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-except.ads:186:14" shape : ellipse }
+edge: { sourcename: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.adb:system__arith_32__raise_error" targetname: "__gnat_raise_exception" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.adb:265:7" }
+node: { title: "system__arith_32__scaled_divide32" label: "Scaled_Divide32\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.adb:275:4\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "system__arith_32__scaled_divide32" targetname: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.adb:system__arith_32__raise_error" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.adb:465:10" }
+node: { title: "__aeabi_uldivmod" label: "aeabi_uldivmod\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__arith_32__scaled_divide32" targetname: "__aeabi_uldivmod" }
+}

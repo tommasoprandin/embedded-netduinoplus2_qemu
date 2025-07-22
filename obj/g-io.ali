@@ -1,0 +1,106 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+
+U gnat.io%b		g-io.adb		42406e05 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.text_io%s	s-textio.adb		s-textio.ali
+
+U gnat.io%s		g-io.ads		1ffb22d8 NE OL PR PK
+W gnat%s		gnat.ads		gnat.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-assert.ads		20250721163518 ba465f5c ada.assertions%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-numeri.ads		20250721163518 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250721163518 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250721163518 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20250721163518 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20250721163518 b5988c27 gnat%s
+D g-io.ads		20250721163518 aa63aeff gnat.io%s
+D g-io.adb		20250721163518 29cc92f9 gnat.io%b
+D g-io-put.adb		20250721163518 f01018a2 gnat.io.put
+D system.ads		20250721163518 00104290 system%s
+D s-assert.ads		20250721163518 9c4520c7 system.assertions%s
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-textio.ads		20250721163518 22178fc9 system.text_io%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [put gnat__io 49 14 none]
+G c Z s b [put gnat__io 55 14 none]
+G c Z s b [put gnat__io 60 14 none]
+G c Z s b [put_line gnat__io 65 14 none]
+G c Z s b [new_line gnat__io 71 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 11|40r6 41r5
+X 4 a-numeri.ads
+20K13*Numerics 36e17 11|40r10 41r9
+X 5 a-nubinu.ads
+19K22*Big_Numbers 30e29 11|40r19 41r18
+X 9 gnat.ads
+40K9*GNAT 63e9 10|41r9 76r5 11|43r14 187r5 12|41r11
+X 10 g-io.ads
+41K14*IO 9|40k9 10|76l10 76e12 11|43b19 187l10 187t12 12|41r16
+44@22*File_System 45r22 51r27 57r27 62r27 67r27 73r27 11|46r21
+49U14*Put 49>19 11|66b14 164l8 164t11
+49i19 X{integer} 11|66b19 132r18 132r29 132r37 158r10
+55U14*Put 55>19 11|49b14 58s10 173s10 12|42b11 62l5 62t8
+55e19 C{character} 11|49b19 12|42b16 49r7 61r24
+60U14*Put 60>19 11|163s7 170b14 175l8 175t11 183s7
+60a19 S{string} 11|170b19 172r16 173r15
+65U14*Put_Line 65>24 11|181b14 185l8 185t16
+65a24 S{string} 11|181b24 183r12
+71U14*New_Line 71>24 11|55b14 60l8 60t16 184s7
+71i24 Spacing{positive} 11|55b24 57r21
+X 11 g-io.adb
+57i11 J{integer}
+120i7 Int{integer} 132m7 133r19 136r33 142r17 143m10 143r18 149r44 152r39
+. 155r20
+121a7 S{string} 122r26 138r41 145m10 150r47 151r50 153r33 153r45 160m10 163r12
+. 163r24
+122i7 First{natural} 138r54 144m10 144r19 145r13 150r33 151r63 153r36 159m10
+. 159r19 160r13 163r15
+123i7 Val{integer} 142m10 143r24 145r60
+172i11 J{integer} 173r18
+X 13 system.ads
+50K9*System 12|39r6 39r26 54r7 61r4 13|167e11
+X 17 s-textio.ads
+35K16*Text_IO 12|39w13 39r33 54r14 61r11 17|82e19
+43U14*Initialize 12|45s7
+47b4*Initialized{boolean} 12|44r11
+55V13*Is_Tx_Ready{boolean} 12|50s17 57s14
+62U14*Put 12|54s22 61s19
+66V13*Use_Cr_Lf_For_New_Line{boolean} 12|49s29
+

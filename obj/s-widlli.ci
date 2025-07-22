@@ -1,0 +1,3 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-widlli.ads"
+node: { title: "system__wid_lli__width_long_long_integer" label: "Width_Long_Long_Integer\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-widthi.adb:35:1\n16 bytes (static)\n0 dynamic objects" }
+}

@@ -1,0 +1,51 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exp_uns%s	s-expuns.ads		ec406bdd NE OL PK
+W system%s		system.ads		system.ali
+W system.exponu%s
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20250721163518 00104290 system%s
+D s-expuns.ads		20250721163518 4990aab3 system.exp_uns%s
+D s-exponu.ads		20250721163518 5feafca7 system.exponu%s
+D s-exponu.adb		20250721163518 29154284 system.exponu%b
+D s-unstyp.ads		20250721163518 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [exp_unsignedR system__exp_uns__exp_unsignedGP3368 58 13 none]
+G c Z s s [exp_unsigned system__exp_uns 58 13 none]
+X 1 system.ads
+50K9*System 167e11 2|49r6 50r6 52r9 69r5
+X 2 s-expuns.ads
+52K16*Exp_Uns 1|50k9 2|69l12 69e19
+56M12*Unsigned{5|44M9} 58r41
+58V13*Exp_Unsigned[3|49]{5|44M9} 59r26 4|32b17
+X 3 s-exponu.ads
+49v17*Exponu 1|50k9 2|49w13 58r33
+X 5 s-unstyp.ads
+38K16*Unsigned_Types 2|50w13 56r24 5|256e26
+44M9*Unsigned 2|56r39
+

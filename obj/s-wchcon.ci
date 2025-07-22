@@ -1,0 +1,12 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb"
+node: { title: "system__wch_con__get_wc_encoding_method" label: "Get_Wc_Encoding_Method\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb:38:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_rcheck_CE_Explicit_Raise" label: "gnat_rcheck_CE_Explicit_Raise\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__wch_con__get_wc_encoding_method" targetname: "__gnat_rcheck_CE_Explicit_Raise" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb:46:7" }
+node: { title: "system__wch_con__get_wc_encoding_method__2" label: "Get_Wc_Encoding_Method\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb:49:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "memcmp" label: "builtin_memcmp\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__wch_con__get_wc_encoding_method__2" targetname: "memcmp" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb:53:15" }
+edge: { sourcename: "system__wch_con__get_wc_encoding_method__2" targetname: "memcmp" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb:55:15" }
+edge: { sourcename: "system__wch_con__get_wc_encoding_method__2" targetname: "memcmp" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb:61:15" }
+edge: { sourcename: "system__wch_con__get_wc_encoding_method__2" targetname: "__gnat_rcheck_CE_Explicit_Raise" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb:64:10" }
+node: { title: "system__wch_con__is_start_of_encoding" label: "Is_Start_Of_Encoding\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-wchcon.adb:72:4\n0 bytes (static)\n0 dynamic objects" }
+}

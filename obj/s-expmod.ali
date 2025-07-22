@@ -1,0 +1,107 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exp_mod%b	s-expmod.adb		efe6cf5f NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+
+U system.exp_mod%s	s-expmod.ads		f871fdd1 NE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-assert.ads		20250721163518 ba465f5c ada.assertions%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-numeri.ads		20250721163518 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250721163518 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250721163518 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20250721163518 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D system.ads		20250721163518 00104290 system%s
+D s-assert.ads		20250721163518 9c4520c7 system.assertions%s
+D s-expmod.ads		20250721163518 33b48ab9 system.exp_mod%s
+D s-expmod.adb		20250721163518 edad0f47 system.exp_mod%b
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250721163518 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [to_big_integer system__exp_mod__unsigned_conversion 140 16 65_4]
+G c Z s s [from_big_integer system__exp_mod__unsigned_conversion 145 16 65_4]
+G c Z s s [big system__exp_mod 69 13 none]
+G c Z s b [exp_modular system__exp_mod 77 13 none]
+G c Z b b [lemma_add_mod system__exp_mod 53 14 none]
+G c Z b b [lemma_exp_expand system__exp_mod 58 14 none]
+G c Z b b [lemma_exp_mod system__exp_mod 67 14 none]
+G c Z b b [lemma_mod_ident system__exp_mod 73 14 none]
+G c Z b b [lemma_mod_mod system__exp_mod 79 14 none]
+G c Z b b [lemma_mult_div system__exp_mod 84 14 none]
+G c Z b b [lemma_mult_mod system__exp_mod 89 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 11|50r6 60r13 62r6 66r10 12|43r6 44r5
+X 4 a-numeri.ads
+20K13*Numerics 36e17 11|50r10 60r17 62r10 66r14 12|43r10 44r9
+X 5 a-nubinu.ads
+19K22*Big_Numbers 30e29 11|50r19 60r26 62r19 66r23 12|43r19 44r18
+X 9 system.ads
+50K9*System 167e11 11|52r6 54r9 57r13 58r24 91r5 12|46r14 49r8 355r5
+X 11 s-expmod.ads
+54K16*Exp_Mod 9|50k9 11|91l12 91e19 12|46b21 355l12 355t19
+58M12*Unsigned{16|44M9} 67r16 69r24 73r26 78r17 79r17 80r33 12|234r17 235r17
+. 236r33 238r16 239r16 242r29 242r46 243r10 260r36 266r36
+73M12*Power_Of_2{58M12} 82r51
+77V13*Exp_Modular{58M12} 78>7 79>7 80>7 83r19 12|233b13 353l8 353t19
+78m7 Left{58M12} 83r46 12|234b7 239r28 290r57 299r24 315r24 327r51 345r57
+. 348r45
+79m7 Modulus{58M12} 82r14 82r36 83r70 12|235b7 244r45 246r16 252r41 258r16
+. 275r22 288r45 303r40 308r52 309r63 312r40 328r67 338r46 339r49 340r61 343r37
+. 348r69
+80i7 Right{natural} 83r55 12|236b7 240r27 290r66 299r33 315r33 327r60 345r66
+. 348r54
+X 12 s-expmod.adb
+238m7 Result{11|58M12} 288r36 290r21 298r25 301r37 304r28 306m16 306r32 308r38
+. 310r37 314r24 327r21 339r35 340r34 342r34 345r21 348r30 351r14
+239m7 Factor{11|58M12} 290r36 295r24 296r26 296r41 298r40 298r56 300r36 301r52
+. 302r40 304r36 306r40 309r36 311r40 314r39 316r39 320r36 325r26 328r33 328r48
+. 330r22 330r37 332r22 332r37 334r25 334r33 336m13 336r29 336r37 341r33 342r48
+. 345r36
+240i7 Exp{natural} 285r10 287r36 290r47 291r47 293r16 295r35 296r53 298r68
+. 302r52 309r48 311r52 314r51 316r48 317r31 317r42 320r45 322m13 322r20 323r23
+. 325r37 328r57 330r49 332r49 342r59 345r47
+242V16 Mult{11|58M12} 242b16 242>22 242>25 263s22 264s25 268s30 306s26 336s23
+242m22 X{11|58M12} 243r40
+242m25 Y{11|58M12} 243r65
+X 16 s-unstyp.ads
+38K16*Unsigned_Types 11|52w13 57r20 58r31 12|49r15 16|256e26
+44M9*Unsigned 11|57r35 58r46
+46M9*Long_Long_Unsigned 12|243r20 243r45 244r25
+

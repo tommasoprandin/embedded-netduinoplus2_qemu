@@ -1,0 +1,28 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb"
+edge: { sourcename: "system__put_task_images__put_image_protected"
+  targetname: "4:ada__strings__text_buffers__root_buffer_type,ada__strings__text_buffers__root_buffer_type"
+  label: "s-putaim.adb:38:7"
+}
+edge: { sourcename: "system__put_task_images__put_image_task"
+  targetname: "4:ada__strings__text_buffers__root_buffer_type,ada__strings__text_buffers__root_buffer_type"
+  label: "s-putaim.adb:45:7"
+}
+node: { title: "system__put_task_images__put_image_protected" label: "Put_Image_Protected\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb:36:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "system__put_task_images__put_image_protected" targetname: "__indirect_call" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb:38:7" }
+node: { title: "system__put_task_images__put_image_task" label: "Put_Image_Task\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb:41:4\n56 bytes (static)\n0 dynamic objects" }
+node: { title: "system__secondary_stack__ss_mark" label: "Ss_Mark\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-secsta.ads:125:13" shape : ellipse }
+edge: { sourcename: "system__put_task_images__put_image_task" targetname: "system__secondary_stack__ss_mark" }
+node: { title: "ada__task_identification__image" label: "Image\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/a-taside.ads:64:13" shape : ellipse }
+edge: { sourcename: "system__put_task_images__put_image_task" targetname: "ada__task_identification__image" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb:45:55" }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-secsta.ads:114:14" shape : ellipse }
+edge: { sourcename: "system__put_task_images__put_image_task" targetname: "system__secondary_stack__ss_allocate" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb:45:67" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__put_task_images__put_image_task" targetname: "memcpy" }
+edge: { sourcename: "system__put_task_images__put_image_task" targetname: "__indirect_call" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb:45:7" }
+node: { title: "system__secondary_stack__ss_release" label: "Ss_Release\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-secsta.ads:128:14" shape : ellipse }
+edge: { sourcename: "system__put_task_images__put_image_task" targetname: "system__secondary_stack__ss_release" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb:45:0" }
+edge: { sourcename: "system__put_task_images__put_image_task" targetname: "system__secondary_stack__ss_release" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-putaim.adb:45:0" }
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__put_task_images__put_image_task" targetname: "_Unwind_Resume" }
+}

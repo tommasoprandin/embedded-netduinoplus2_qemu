@@ -1,0 +1,6 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imglli.ads"
+node: { title: "system__img_lli__impl__image_integer" label: "Image_Integer\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imagei.adb:136:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "system__img_lli__impl__set_digits" label: "Set_Digits\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imagei.adb:211:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "system__img_lli__impl__set_image_integer" label: "Set_Image_Integer\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imagei.adb:448:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "system__img_lli__impl__uns_of_non_positive" label: "Uns_Of_Non_Positive\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imagei.adb:53:4\n0 bytes (static)\n0 dynamic objects" }
+}

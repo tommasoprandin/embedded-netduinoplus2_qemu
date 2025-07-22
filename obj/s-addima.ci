@@ -1,0 +1,7 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-addima.adb"
+node: { title: "_ada_system__address_image" label: "Address_Image\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-addima.adb:35:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__img_address_32__impl__address_image" label: "Address_Image\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imagea.ads:41:13" shape : ellipse }
+edge: { sourcename: "_ada_system__address_image" targetname: "system__img_address_32__impl__address_image" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-addima.adb:41:58" }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-secsta.ads:114:14" shape : ellipse }
+edge: { sourcename: "_ada_system__address_image" targetname: "system__secondary_stack__ss_allocate" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-addima.adb:41:22" }
+}

@@ -1,0 +1,104 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.image_d%b	s-imaged.adb		530041f0 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+W system.image_i%s
+W system.img_util%s	s-imguti.adb		s-imguti.ali
+
+U system.image_d%s	s-imaged.ads		f31365c2 BN NE OL PK GE
+W system%s		system.ads		system.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-assert.ads		20250721163518 ba465f5c ada.assertions%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-numeri.ads		20250721163518 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250721163518 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250721163518 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20250721163518 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D system.ads		20250721163518 00104290 system%s
+D s-assert.ads		20250721163518 9c4520c7 system.assertions%s
+D s-imaged.ads		20250721163518 f3032752 system.image_d%s
+D s-imaged.adb		20250721163518 82af1050 system.image_d%b
+D s-imagei.ads		20250721163518 5e131ce0 system.image_i%s
+D s-imagei.adb		20250721163518 7e62cc2a system.image_i%b
+D s-imguti.ads		20250721163518 7719a4b9 system.img_util%s
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+D s-valspe.ads		20250721163518 f810d31c system.val_spec%s
+D s-vaispe.ads		20250721163518 8280550e system.value_i_spec%s
+D s-vaispe.adb		20250721163518 dbcabb05 system.value_i_spec%b
+D s-vauspe.ads		20250721163518 89269ba5 system.value_u_spec%s
+D s-vauspe.adb		20250721163518 8524adb4 system.value_u_spec%b
+G a e
+G c Z s b [image_d system 41 16 none]
+X 9 system.ads
+50K9*System 167e11 11|41r9 72r5 12|32r6 33r6 33r27 34r6 35r6 37r14 53r28
+. 54r28 56r27 130r5
+X 11 s-imaged.ads
+38I9 Int 44r15 56r15 12|54r49 57r17 63r11 73r15 98r15 106r37
+39M9 Uns 12|53r49 54r54 58r17
+41k16*Image_D 9|50k9 11|38z9 39z9 72l12 72e19 12|37b21 130l12 130t19
+43U14*Image_Decimal 44>7 45=7 46<7 47>7 12|72b14 91l8 91t21
+44*7 V{38I9} 12|73b7 83r10 90r26
+45a7 S{string} 12|74b7 78r22 84m10 90m29
+46i7 P{natural} 12|75b7 85m10 87m10 90m32
+47i7 Scale{integer} 12|76b7 90r35 90r61
+55U14*Set_Image_Decimal 56>7 57=7 58=7 59>7 60>7 61>7 62>7 12|90s7 97b14
+. 128l8 128t25
+56*7 V{38I9} 12|98b7 116r10 123r26
+57a7 S{string} 12|99b7 127m40
+58i7 P{natural} 12|100b7 127m43
+59i7 Scale{integer} 12|101b7 127r46
+60i7 Fore{natural} 12|102b7 127r53
+61i7 Aft{natural} 12|103b7 127r59
+62i7 Exp{natural} 12|104b7 127r64
+X 12 s-imaged.adb
+56K12 Image_I[13|61] 66r14
+62U14 Set_Image_Integer=66:22 123s7
+63*7 V{11|38I9}
+64a7 S{string}
+65i7 P{natural}
+106i7 Maxdigs{natural} 109r28 125r51
+109a7 Digs{string} 117m10 123m29 123r29 127m27 127r27
+110i7 Ndigs{natural} 118m10 120m10 123m35 123r35 125r27 125r42 127r33
+X 13 s-imagei.ads
+52I9 Int 12|57r7
+53M9 Uns 12|58r7
+61k16*Image_I 12|32w13 56r34 13|116e19
+82U14 Set_Image_Integer 12|66r22[56]
+X 15 s-imguti.ads
+36K16*Img_Util 12|33w13 33r34 15|82e20
+43U14*Set_Decimal_Digits 12|127s7
+

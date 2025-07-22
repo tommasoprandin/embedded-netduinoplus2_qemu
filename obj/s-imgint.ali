@@ -1,0 +1,96 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.img_int%s	s-imgint.ads		228f01d1 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+W system.image_i%s
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-assert.ads		20250721163518 ba465f5c ada.assertions%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-numeri.ads		20250721163518 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250721163518 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250721163518 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20250721163518 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D system.ads		20250721163518 00104290 system%s
+D s-assert.ads		20250721163518 9c4520c7 system.assertions%s
+D s-imagei.ads		20250721163518 5e131ce0 system.image_i%s
+D s-imagei.adb		20250721163518 7e62cc2a system.image_i%b
+D s-imgint.ads		20250721163518 67e4edfb system.img_int%s
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250721163518 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20250721163518 f810d31c system.val_spec%s
+D s-vaispe.ads		20250721163518 8280550e system.value_i_spec%s
+D s-vaispe.adb		20250721163518 dbcabb05 system.value_i_spec%b
+D s-vauspe.ads		20250721163518 89269ba5 system.value_u_spec%s
+D s-vauspe.adb		20250721163518 8524adb4 system.value_u_spec%b
+D s-vs_int.ads		20250721163518 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20250721163518 e7f47a27 system.vs_uns%s
+G a e
+G c Z s s [image_integer system__img_int__impl 68 14 58_4]
+G c Z s s [set_image_integer system__img_int__impl 82 14 58_4]
+G c Z s s [uns_of_non_positive system__img_int__impl 53 13 58_4]
+G c Z s s [set_digits system__img_int__impl 56 14 58_4]
+G c Z s s [to_big_integer system__img_int__impl__unsigned_conversion 140 16 75_4_58_4]
+G c Z s s [from_big_integer system__img_int__impl__unsigned_conversion 145 16 75_4_58_4]
+G c Z s s [lemma_non_zero system__img_int__impl 89 14 58_4]
+G c Z s s [lemma_div_commutation system__img_int__impl 95 14 58_4]
+G c Z s s [lemma_div_twice system__img_int__impl 101 14 58_4]
+X 9 system.ads
+50K9*System 167e11 13|48r6 49r6 50r6 51r6 53r9 61r17 62r17 97r5
+X 11 s-imagei.ads
+52I9 Int 13|59r7
+53M9 Uns 13|60r7
+61k16*Image_I 116e19 13|48w13 58r24
+68U14*Image_Integer 13|68r19[58]
+82U14*Set_Image_Integer 13|81r19[58]
+X 13 s-imgint.ads
+53K16*Img_Int 9|50k9 13|97l12 97e19
+56M12*Unsigned{17|44M9} 60r17
+58K12*Impl[11|61] 68r14 81r14
+64U14*Image_Integer=68:19
+65i7 V{integer}
+66a7 S{string}
+67i7 P{natural}
+77U14*Set_Image_Integer=81:19
+78i7 V{integer}
+79a7 S{string}
+80i7 P{natural}
+X 17 s-unstyp.ads
+38K16*Unsigned_Types 13|49w13 56r24 17|256e26
+44M9*Unsigned 13|56r39
+

@@ -1,0 +1,108 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.numerics.discrete_random%b  a-nudira.adb	5279b137 NE OL PK GE
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+
+U ada.numerics.discrete_random%s  a-nudira.ads	48bb269a BN NE OL PK GE
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W system%s		system.ads		system.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-numeri.ads		20250721163518 84bea7a3 ada.numerics%s
+D a-nudira.ads		20250721163518 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20250721163518 0bfd6ec4 ada.numerics.discrete_random%b
+D a-string.ads		20250721163518 90ac6797 ada.strings%s
+D a-sttebu.ads		20250721163518 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250721163518 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250721163518 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250721163518 9111f9c1 interfaces%s
+D system.ads		20250721163518 00104290 system%s
+D s-rannum.ads		20250721163518 95815eca system.random_numbers%s
+D s-stoele.ads		20250721163518 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [discrete_random ada__numerics 46 22 none]
+X 1 ada.ads
+18K9*Ada 22e8 3|46r9 83r5 4|32r14 107r5
+X 2 a-numeri.ads
+20K13*Numerics 1|18k9 2|36e17 3|46r13 83r9 4|32r18 107r9
+X 3 a-nudira.ads
+44E9 Result_Subtype 54r45 58r15 59r15 59r38 4|52r45 54r34 54r50 61r15 62r15
+. 62r38 64r32
+46k22*Discrete_Random 2|20k13 3|44z9 79E9 83l18 83e33 4|32b27 107l18 107t33
+52R9*Generator<12|65R9> 54r27 57r15 62r27 63r27 69r27 70r27 79c9 4|52r27
+. 60r15 74r27 79r27 84r27 93r26
+54V13*Random{44E9} 54>21 4|52b13 57l8 57t14
+54r21 Gen{52R9} 4|52b21 56r37
+56V13*Random{44E9} 57>7 58>7 59>7 4|59b13 68l8 68t14
+57r7 Gen{52R9} 4|60b7 67r37
+58*7 First{44E9} 60r36 4|61b7 64r53 65r66
+59*7 Last{44E9} 60r45 4|62b7 64r62
+62U14*Reset<12|109p14> 62>21 62>38 4|79b14 82l8 82t13
+62r21 Gen{52R9} 4|79b21 81r29
+62i38 Initiator{integer} 4|79b38 81r35
+63U14*Reset<12|103p14> 63>21 4|74b14 77l8 77t13
+63r21 Gen{52R9} 4|74b21 76r29
+67A9*State<12|70A9> 69r55 70r51 74r34 75r49 81c9 4|43r31 84r51 93r54 102r49
+. 104r14
+69U14*Save 69>21 69<38 4|93b14 96l8 96t12
+69r21 Gen{52R9} 4|93b20 95r28
+69a38 To_State{67A9} 4|93b37 95m45 95r45
+70U14*Reset 70>21 70>38 4|84b14 87l8 87t13
+70r21 Gen{52R9} 4|84b21 86r29
+70a38 From_State{67A9} 4|84b38 86r46
+72N4*Max_Image_Width
+74V13*Image{string}<12|132p13> 74>20 4|43b13 46l8 46t13
+74a20 Of_State{67A9} 4|43b20 45r32
+75V13*Value{67A9}<12|136p13> 75>20 4|102b13 105l8 105t13
+75a20 Coded_State{string} 4|102b20 104r39
+X 4 a-nudira.adb
+36K12 SRN=36:31 37r8 45r21 54r13 56r22 65r30 67r22 76r14 81r14 86r14 86r35
+. 95r13 95r34 104r21
+53V16 Random[12|86]{3|44E9} 56s14
+64E15 Local_Subtype{3|44E9} 65r51
+65V16 Random[12|86]{3|44E9} 67s14
+X 10 interfac.ads
+92M9*Unsigned_32
+X 11 system.ads
+50K9*System 3|41r6 72r34 79r26 81r22 4|36r24 11|167e11
+X 12 s-rannum.ads
+62K16*Random_Numbers 3|41w13 72r41 79r33 81r29 4|36r31 12|170e26
+65R9*Generator 3|79r48 4|56r26 67r26 76r18 81r18 86r18 95r17 12|168e14
+70A9*State(147M12) 3|81r44 4|45r25 86r39 95r38 104r25
+86v13*Random_Discrete 4|54r17 65r34
+103U14*Reset 4|76s7
+109U14*Reset 4|81s7
+117U14*Reset 4|86s7
+118U14*Save 4|95s7
+129N4*Max_Image_Width 3|72r56
+132V13*Image{string} 4|45s14
+136V13*Value{70A9} 4|104s32
+147M12 State_Val{10|92M9}
+

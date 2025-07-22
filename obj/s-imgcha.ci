@@ -1,0 +1,5 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imgcha.adb"
+node: { title: "system__img_char__image_character" label: "Image_Character\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imgcha.adb:38:4\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "system__img_char__image_character_05" label: "Image_Character_05\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imgcha.adb:170:4\n4 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "system__img_char__image_character_05" targetname: "system__img_char__image_character" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imgcha.adb:181:10" }
+}

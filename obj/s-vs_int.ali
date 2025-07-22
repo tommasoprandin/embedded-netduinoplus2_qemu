@@ -1,0 +1,57 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U system.vs_int%s	s-vs_int.ads		99f8a5c4 EE OL PR
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20250721163518 00104290 system%s
+D s-unstyp.ads		20250721163518 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20250721163518 f810d31c system.val_spec%s
+D s-vaispe.ads		20250721163518 8280550e system.value_i_spec%s
+D s-vaispe.adb		20250721163518 dbcabb05 system.value_i_spec%b
+D s-vauspe.ads		20250721163518 89269ba5 system.value_u_spec%s
+D s-vauspe.adb		20250721163518 8524adb4 system.value_u_spec%b
+D s-vs_int.ads		20250721163518 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20250721163518 e7f47a27 system.vs_uns%s
+G a e
+G c Z s s [uns_is_valid_int system__vs_int__spec 70 13 56_4]
+G c Z s s [is_int_of_uns system__vs_int__spec 77 13 56_4]
+G c Z s s [abs_uns_of_int system__vs_int__spec 91 13 56_4]
+G c Z s s [slide_to_1 system__vs_int__spec 97 13 56_4]
+G c Z s s [slide_if_necessary system__vs_int__spec 105 13 56_4]
+G c Z s s [is_integer_ghost system__vs_int__spec 109 13 56_4]
+G c Z s s [is_value_integer_ghost system__vs_int__spec 136 13 56_4]
+G c Z s s [prove_scan_only_decimal_ghost system__vs_int__spec 156 14 56_4]
+X 1 system.ads
+50K9*System 167e11 8|47r6 48r6 49r6 51r9 56r24 57r26 59r5
+X 2 s-unstyp.ads
+38K16*Unsigned_Types 256e26 8|47w13 54r24
+44M9*Unsigned 8|54r39
+

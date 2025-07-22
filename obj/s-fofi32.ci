@@ -1,0 +1,8 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-fofi32.ads"
+node: { title: "system__fore_fixed_32__impl__fore_fixed" label: "Fore_Fixed\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-fore_f.adb:56:4\n40 bytes (static)\n0 dynamic objects" }
+node: { title: "system__arith_32__scaled_divide32" label: "Scaled_Divide32\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-arit32.ads:91:14" shape : ellipse }
+edge: { sourcename: "system__fore_fixed_32__impl__fore_fixed" targetname: "system__arith_32__scaled_divide32" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-fore_f.adb:80:10" }
+node: { title: "system__exn_int__exponn_integer__expon" label: "Expon\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-exponn.ads:69:13" shape : ellipse }
+edge: { sourcename: "system__fore_fixed_32__impl__fore_fixed" targetname: "system__exn_int__exponn_integer__expon" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-fore_f.adb:115:44" }
+edge: { sourcename: "system__fore_fixed_32__impl__fore_fixed" targetname: "system__arith_32__scaled_divide32" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-fore_f.adb:115:13" }
+}

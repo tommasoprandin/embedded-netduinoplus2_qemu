@@ -1,0 +1,14 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-shsh32.adb"
+node: { title: "gnat__secure_hashes__sha2_32__hash_state__to_hash" label: "TO_HASH\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-sechas.adb:470:7\n24 bytes (dynamic)\n1 dynamic objects\n RESULT /Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-sechas.adb:472:10" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "gnat__secure_hashes__sha2_32__hash_state__to_hash" targetname: "memcpy" }
+node: { title: "memmove" label: "builtin_memmove\n<built-in>" shape : ellipse }
+edge: { sourcename: "gnat__secure_hashes__sha2_32__hash_state__to_hash" targetname: "memmove" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-sechas.adb:489:17" }
+node: { title: "gnat__secure_hashes__sha2_32__transform" label: "TRANSFORM\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-shshco.adb:38:4\n376 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "gnat__secure_hashes__sha2_32__transform" targetname: "memmove" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-shshco.adb:91:19" }
+node: { title: "gnat__secure_hashes__sha2_32__hash_state__stateIP" label: "stateIP\n<built-in>\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "gnat__secure_hashes__sha2_32__sigma0" label: "SIGMA0\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-shsh32.adb:40:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "gnat__secure_hashes__sha2_32__sigma1" label: "SIGMA1\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-shsh32.adb:51:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "gnat__secure_hashes__sha2_32__s0" label: "S0\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-shsh32.adb:62:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "gnat__secure_hashes__sha2_32__s1" label: "S1\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/g-shsh32.adb:73:4\n0 bytes (static)\n0 dynamic objects" }
+}

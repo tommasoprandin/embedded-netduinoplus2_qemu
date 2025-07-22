@@ -1,0 +1,152 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.val_util%b	s-valuti.adb		365e21c1 NE OL PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.case_util%s	s-casuti.adb		s-casuti.ali
+N A51:7 gnatprove intentional "exception might be raised" "Intentional exception from Bad_Value"
+N A143:7 codepeer false_positive "test always false" "the slice might be empty or not start with an 'e'"
+
+U system.val_util%s	s-valuti.ads		83d7130e NE OL PU PK
+W system%s		system.ads		system.ali
+W system.case_util%s	s-casuti.adb		s-casuti.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D system.ads		20250721163518 00104290 system%s
+D s-casuti.ads		20250721163518 cf13d755 system.case_util%s
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+D s-valspe.ads		20250721163518 f810d31c system.val_spec%s
+D s-valuti.ads		20250721163518 b4c455d7 system.val_util%s
+D s-valuti.adb		20250721163518 4d89a343 system.val_util%b
+G a e
+G c Z s b [bad_value system__val_util 55 14 none]
+G c Z s b [normalize_string system__val_util 63 14 none]
+G c Z s b [scan_sign system__val_util 94 14 none]
+G c Z s b [scan_plus_sign system__val_util 139 14 none]
+G c Z s b [scan_exponent system__val_util 166 14 none]
+G c Z s b [scan_trailing_blanks system__val_util 201 14 none]
+G c Z s b [scan_underscore system__val_util 211 14 none]
+X 4 system.ads
+50K9*System 167e11 10|45r6 46r6 48r9 53r23 84r36 242r5 11|40r6 40r28 42r14
+. 416r5
+92V14*">"{boolean} 11|57r19
+X 5 s-casuti.ads
+48K16*Case_Util 133e21 10|45w13 84r43 11|40w13 40r35
+53V13*To_Upper{character} 10|84s53 11|114s22 116s47
+X 10 s-valuti.ads
+48K16*Val_Util 4|50k9 10|242l12 242e20 11|42b21 416l12 416t20
+55U14*Bad_Value 55>25 60r22 11|50b14 63l8 63t17 245s10 261s13 276s13 301s10
+. 317s13 333s13 344s13 362s13 398s10 412s10
+55a25 S{string} 58r26 11|50b25 57r10 59r12 59r15 59r26 61r67
+63U14*Normalize_String 64=7 65<7 65<10 66>7 11|69b14 119l8 119t24
+64a7 S{string} 68r39 68r46 68r55 71r22 72r33 74r49 74r56 75r28 76r28 78r29
+. 79r44 79r58 81r48 82r37 84r28 84r63 86r28 86r36 11|70b7 75r12 76r12 86r28
+. 87r38 88r46 88r62 96r10 103r13 104r47 105r51 105r61 112r33 114m13 114r32
+. 116r39 116r57
+65i7 F{integer} 69r17 71r17 73r28 74r65 75r35 81r55 83r34 11|71b7 75m7 80r10
+. 86r13 86r31 87r33 88r57 89r44 90m10 90r15 96r13 104r38 112r36 113r19 116r29
+65i10 L{integer} 69r21 72r28 73r33 76r35 78r25 79r51 83r39 11|71b10 76m7
+. 80r14 86r17 87r49 97m10 97r15 103r16 104r33 105r46 106r44 107m10 107r15
+. 113r24
+66b7 To_Upper_Case{boolean} 81r25 11|72b7 112r10
+82i32 J{integer} 83r29 84r31 84r70 86r31 86r43
+94U14*Scan_Sign 95>7 96^7 97>7 98<7 99<7 11|287b14 352l8 352t17
+95a7 Str{string} 103r43 103r69 104r42 108r41 110r17 111r38 115r39 117r20
+. 118r36 11|288b7 301r21 306r13 311r59 313r46 317r24 323r56 327r10 333r24
+. 338r13 344r24
+96p7 Ptr(integer) 103r9 103r32 104r47 108r46 115r44 118r22 11|289b7 294r22
+. 309r33 309r43 310r38 313r26 316r13 323r61 332r13 343r13 351r7
+97i7 Max{integer} 103r19 103r62 104r56 108r55 111r21 115r57 11|290b7 300r14
+. 310r49 311r52 315r17 323r70 331r17 342r17
+98b7 Minus{boolean} 117r11 11|291b7 328m10 339m10 348m10
+99i7 Start{positive} 119r22 11|292b7 321m7 323r22 332r24 343r24
+107i13 F{positive} 110r22 111r16 111r43
+114i11 F{positive} 117r25 118r41 118r62 118r73 119r30
+139U14*Scan_Plus_Sign 140>7 141^7 142>7 143<7 11|235b14 281l8 281t22
+140a7 Str{string} 147r43 147r69 148r42 152r41 154r17 155r38 159r39 161r25
+. 11|236b7 245r21 250r13 255r59 257r46 261r24 267r56 271r10 276r24
+141p7 Ptr(integer) 147r9 147r32 148r47 152r46 159r44 161r11 11|237b7 241r22
+. 253r33 253r43 254r38 257r26 260r13 267r61 275r13 280r7
+142i7 Max{integer} 147r19 147r62 148r56 152r55 155r21 159r57 11|238b7 244r14
+. 254r49 255r52 259r17 267r70 274r17
+143i7 Start{positive} 162r22 11|239b7 265m7 267r22 275r24
+151i13 F{positive} 154r22 155r16 155r43
+158i11 F{positive} 161r30 161r44 161r55 162r30
+166U14*Scan_Exponent 167>7 168^7 169>7 170<7 171>7 11|125b14 229l8 229t21
+167a7 Str{string} 175r43 175r69 177r52 179r48 180r44 182r15 183r46 185r46
+. 11|126b7 138r18 138r42 151r10 161r13 175r10 189r36 196r28 199r46 204r36
+. 213r16 214r33 216r26
+168p7 Ptr(integer) 175r9 175r32 177r57 179r53 180r49 182r20 183r14 183r51
+. 185r14 185r51 186r26 186r36 11|127b7 132r22 214r41 227r7
+169i7 Max{integer} 175r19 175r62 176r19 177r68 179r68 180r64 183r70 185r70
+. 11|128b7 137r15 154r17 164r17 189r46 211r27 214r46
+170i7 Exp{integer} 180r14 186r14 11|129b7 140m10 155m13 165m13 176m10 228m7
+171b7 Real{boolean} 177r74 179r74 180r70 11|130b7 164r33
+201U14*Scan_Trailing_Blanks 201>36 201>50 11|358b14 367l8 367t28
+201a36 Str{string} 203r18 204r38 204r46 11|358b36 360r21 361r13 362r24 365r56
+201i50 P{positive} 203r13 204r43 11|358b50 360r16 365r46
+211U14*Scan_Underscore 212>7 213=7 214^7 215>7 216>7 11|214s16 373b14 414l8
+. 414t23
+212a7 Str{string} 218r19 219r17 220r24 224r13 226r13 11|374b7 398r21 404r12
+. 412r21
+213i7 P{natural} 218r14 219r22 221r17 224r18 226r18 228r8 228r12 11|375b7
+. 383m7 383r12 396r10 397r21 404r17 411r21
+214p7 Ptr(integer) 229r19 229r33 11|376b7 397r10 411r10
+215i7 Max{integer} 220r17 221r21 11|377b7 396r14
+216b7 Ext{boolean} 223r14 11|378b7 407r18
+X 11 s-valuti.adb
+88i41 J{integer} 88r65
+105i41 J{integer} 105r64
+113i14 J{integer} 114r16 114r35 116r34
+116i24 K{integer} 116r42 116r71
+132i7 P{integer} 137r10 138r23 138r47 149m7 149r12 151r15 152m10 152r15 154r13
+. 161r18 162m10 162r15 164r13 175r15 189r41 196r33 199r51 203r36 204r41 207r47
+. 209m13 209r18 211r23 213r21 214m38 214r38 216r31 220r25 227r18
+133b7 M{boolean} 158m13 168m13 172m10 223r10
+134i7 X{integer} 186m7 198r16 199m16 199r21 202r36 207r54 224m10 224r16 228r14
+241i7 P{integer} 244r10 250r18 251m10 251r15 254r33 255r47 257r37 259r13
+. 260r24 265r16 271r15 272m10 272r15 274r13 280r18
+255i42 J{integer} 255r64
+257i21 J{integer} 257r51
+294i7 P{integer} 300r10 306r18 307m10 307r15 310r33 311r47 313r37 315r13
+. 316r24 321r16 327r15 329m10 329r15 331r13 338r18 340m10 340r15 342r13 351r18
+311i42 J{integer} 311r64
+313i21 J{integer} 313r51
+360i11 J{integer} 361r18 365r51
+365i41 K{integer} 365r61
+380e7 C{character} 404m7 406r10 407r32 407r56
+

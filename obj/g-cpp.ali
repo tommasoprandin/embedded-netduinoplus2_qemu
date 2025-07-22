@@ -1,0 +1,37 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U gnat.cpp%s		g-cpp.ads		c48cf0a8 NE OL PK
+W gnat%s		gnat.ads		gnat.ali
+
+D gnat.ads		20250721163518 b5988c27 gnat%s
+D g-cpp.ads		20250721163518 71147c8f gnat.cpp%s
+D system.ads		20250721163518 00104290 system%s
+G a e
+X 1 gnat.ads
+40K9*GNAT 63e9 2|35r9 36r5
+X 2 g-cpp.ads
+35K14*CPP 1|40k9 2|36l10 36e13
+

@@ -1,0 +1,7 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-macres.adb"
+node: { title: "_exit" label: "Os_Exit\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-macres.adb:60:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "abort" label: "Os_Abort\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-macres.adb:51:4\n8 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "abort" targetname: "_exit" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-macres.adb:53:7" }
+node: { title: "__gnat_stop" label: "Stop\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-macres.adb:100:4\n8 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "__gnat_stop" targetname: "_exit" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-macres.adb:102:7" }
+}

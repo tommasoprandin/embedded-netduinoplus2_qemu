@@ -1,0 +1,45 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U system.value_i_spec%b	s-vaispe.adb		594aee0b OL
+W system%s		system.ads		system.ali
+
+U system.value_i_spec%s	s-vaispe.ads		f3a65f27 BN EE OL PR
+W system%s		system.ads		system.ali
+
+D system.ads		20250721163518 00104290 system%s
+D s-valspe.ads		20250721163518 f810d31c system.val_spec%s
+D s-vaispe.ads		20250721163518 8280550e system.value_i_spec%s
+D s-vaispe.adb		20250721163518 dbcabb05 system.value_i_spec%b
+D s-vauspe.ads		20250721163518 89269ba5 system.value_u_spec%s
+G a e
+G c Z s b [value_i_spec system 62 16 none]
+X 1 system.ads
+50K9*System 167e11 3|49r6 50r6 50r27 60r31 62r9 185r5 4|38r14 87r5
+93V14*">="{boolean} 3|160r28
+

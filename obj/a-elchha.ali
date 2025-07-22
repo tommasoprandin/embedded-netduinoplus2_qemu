@@ -1,0 +1,96 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF SS ZX
+
+RN
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.exceptions.last_chance_handler%b  a-elchha.adb  057908db NE OL PR SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.debug_utilities%s  g-debuti.adb		g-debuti.ali
+W system%s		system.ads		system.ali
+W system.io%s		s-io.adb		s-io.ali
+W system.machine_reset%s  s-macres.adb		s-macres.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ada.exceptions.last_chance_handler%s  a-elchha.ads  a028f72d NE OL SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-elchha.ads		20250721163518 47bffbf4 ada.exceptions.last_chance_handler%s
+D a-elchha.adb		20250721163518 949db202 ada.exceptions.last_chance_handler%b
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20250721163518 b5988c27 gnat%s
+D g-debuti.ads		20250721163518 407be69f gnat.debug_utilities%s
+D system.ads		20250721163518 00104290 system%s
+D s-io.ads		20250721163518 9e42f74f system.io%s
+D s-macres.ads		20250721163518 0872126d system.machine_reset%s
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-secsta.ads		20250721163518 bd894d4b system.secondary_stack%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250721163518 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [last_chance_handler ada__exceptions 34 26 none]
+X 1 ada.ads
+18K9*Ada 22e8 3|34r11 4|44r11 64r5
+X 2 a-except.ads
+44K13*Exceptions 309e19 3|34r15 4|44r15 64r9
+53R9*Exception_Occurrence 281e14 3|35r14 4|44r56
+62V13*Exception_Name{string} 4|47s44
+84V13*Exception_Message{string} 4|48s28
+247A12 Tracebacks_Array{15|50A9}<integer>
+276i7*Num_Tracebacks{integer} 4|53r25
+279a7*Tracebacks{247A12} 4|54r28
+X 3 a-elchha.ads
+34U26*Last_Chance_Handler 2|44k13 3|35>4 37i<c,__gnat_last_chance_handler>16
+. 39r19 4|44b26 64l20 64t39
+35r4 Except{2|53R9} 4|44b47 47r60 48r47 53r18 54r21
+X 4 a-elchha.adb
+53i8 J{integer} 54r40
+53l40 loop 56e12
+X 6 gnat.ads
+40K9*GNAT 4|36r6 36r36 6|63e9
+X 7 g-debuti.ads
+39K14*Debug_Utilities 4|36w11 36r41 7|81e25
+54A12*Image_C_String{string}<integer>
+67V13*Image_C{54A12} 4|54s12
+X 8 system.ads
+50K9*System 4|32w6 33r6 35r6 35r36 62r4 8|167e11
+80M9*Address
+X 9 s-io.ads
+37K16*IO 4|35w13 35r43 9|64e14
+44U14*Put 4|54s7 55s7
+45U14*Put_Line 4|46s4 47s4 48s4 49s4
+47U14*New_Line 4|58s4
+X 10 s-macres.ads
+36K16*Machine_Reset 4|33w13 62r11 10|43e25
+39U14*Stop 4|62s25 10|41i<c,__gnat_stop>22
+X 15 s-traent.ads
+44M12*Traceback_Entry{8|80M9}
+50A9*Tracebacks_Array(44M12)<integer>
+

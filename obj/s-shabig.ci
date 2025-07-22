@@ -1,0 +1,4 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-shabig.ads"
+node: { title: "system__shared_bignums__digit_vectorIP" label: "digit_vectorIP\n<built-in>\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__shared_bignums__bignum_dataIP" label: "bignum_dataIP\n<built-in>\n0 bytes (static)\n0 dynamic objects" }
+}

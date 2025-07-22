@@ -1,0 +1,139 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.image_f%b	s-imagef.adb		d1d44872 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
+W system%s		system.ads		system.ali
+W system.image_i%s
+W system.img_util%s	s-imguti.adb		s-imguti.ali
+N A395:7 codepeer false_positive "test always true" "no digits were output for zero"
+
+U system.image_f%s	s-imagef.ads		2a453815 BN NE OL PK GE
+W system%s		system.ads		system.ali
+
+D ada.ads		20250721163518 76789da1 ada%s
+D a-assert.ads		20250721163518 ba465f5c ada.assertions%s
+D a-except.ads		20250721163518 e7970cd9 ada.exceptions%s
+D a-numeri.ads		20250721163518 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250721163518 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250721163518 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nbnbig.adb		20250721163518 e7f9abf0 ada.numerics.big_numbers.big_integers_ghost%b
+D a-unccon.ads		20250721163518 0e9b276f ada.unchecked_conversion%s
+D system.ads		20250721163518 00104290 system%s
+D s-assert.ads		20250721163518 9c4520c7 system.assertions%s
+D s-imagef.ads		20250721163518 2a557a85 system.image_f%s
+D s-imagef.adb		20250721163518 d92d4405 system.image_f%b
+D s-imagei.ads		20250721163518 5e131ce0 system.image_i%s
+D s-imagei.adb		20250721163518 7e62cc2a system.image_i%b
+D s-imguti.ads		20250721163518 7719a4b9 system.img_util%s
+D s-parame.ads		20250721163518 07f3e19f system.parameters%s
+D s-stalib.ads		20250721163518 1c9580f6 system.standard_library%s
+D s-traent.ads		20250721163518 c81cbf8c system.traceback_entries%s
+D s-valspe.ads		20250721163518 f810d31c system.val_spec%s
+D s-vaispe.ads		20250721163518 8280550e system.value_i_spec%s
+D s-vaispe.adb		20250721163518 dbcabb05 system.value_i_spec%b
+D s-vauspe.ads		20250721163518 89269ba5 system.value_u_spec%s
+D s-vauspe.adb		20250721163518 8524adb4 system.value_u_spec%b
+G a e
+G c Z s b [image_f system 46 16 none]
+X 9 system.ads
+50K9*System 167e11 11|46r9 88r5 12|32r6 33r6 33r27 34r6 35r6 37r14 73r28
+. 74r28 76r27 401r5
+X 11 s-imagef.ads
+38I9 Int 42r22 43r23 49r14 52r14 53r14 68r14 71r14 72r14 12|53r34 74r49 77r17
+. 83r11 227r14 230r14 231r14 255r14 258r14 259r14 286r20 287r20 300r11 315r12
+. 316r12
+39M9 Uns 12|73r49 74r54 78r17
+41U19 Scaled_Divide 42>12 42>15 42>18 43<12 43<15 44>12 12|335s10 349s10
+42*12 X{38I9}
+42*15 Y{38I9}
+42*18 Z{38I9}
+43*12 Q{38I9}
+43*15 R{38I9} 12|335r39 349r39
+44b12 Round{boolean} 12|335r48 349r48
+46k16*Image_F 9|50k9 11|38z9 39z9 41z19 88l12 88e19 12|37b21 401l12 401t19
+48U14*Image_Fixed 49>7 50=7 51<7 52>7 53>7 54>7 55>7 12|226b14 248l8 248t19
+49*7 V{38I9} 12|227b7 240r10 247r24
+50a7 S{string} 12|228b7 235r22 241m10 247m27
+51i7 P{natural} 12|229b7 242m10 244m10 247m30
+52*7 Num{38I9} 12|230b7 247r33
+53*7 Den{38I9} 12|231b7 247r38
+54i7 For0{natural} 12|232b7 247r43
+55i7 Aft0{natural} 12|233b7 247r49 247r58
+67U14*Set_Image_Fixed 68>7 69=7 70=7 71>7 72>7 73>7 74>7 75>7 76>7 77>7 12|247s7
+. 254b14 399l8 399t23
+68*7 V{38I9} 12|255b7 315r19 325r10
+69a7 S{string} 12|256b7 398m40
+70i7 P{natural} 12|257b7 398m43
+71*7 Num{38I9} 12|258b7 266r22 286r31
+72*7 Den{38I9} 12|259b7 266r39 287r31
+73i7 For0{natural} 12|260b7 283r63
+74i7 Aft0{natural} 12|261b7 270r37
+75i7 Fore{natural} 12|262b7 398r53
+76i7 Aft{natural} 12|263b7 270r57 398r59
+77i7 Exp{natural} 12|264b7 270r26 398r64
+X 12 s-imagef.adb
+53i4 Maxdigs{natural} 283r27 283r52 297r41 297r56 304r26 308r36 344r20 351r30
+. 351r59 356r50 374r27 379r30 382r30 385r27
+76K12 Image_I[13|61] 86r14
+82U14 Set_Image_Integer=86:22 337s13 354s10
+83*7 V{11|38I9}
+84a7 S{string}
+85i7 P{natural}
+269i7 A{natural} 283r49 290r32
+282i7 D{integer} 286r57 287r58 290r36 340r27
+286*7 Y{11|38I9} 316r19
+287*7 Z{11|38I9} 335r33 349r33
+290i7 AF{natural} 297r36
+297i7 N{natural} 308r32 348r18
+300*7 Q{11|38I9} 335m36 336r13 337r32 349m36 351r40 351r51 354r33 362r16
+304a7 Buf{string} 354m36 354r36 367r39 379r52
+305i7 Len{natural} 353m10 354m41 354r41 356r30 356r43 367r27 367r49 368r25
+. 374r37 378r27 379r40
+308a7 Digs{string} 326m10 337m35 337r35 364m19 367m16 375m16 379m16 392m10
+. 398m27 398r27
+309i7 Ndigs{natural} 327m10 329m10 337m41 337r41 361r13 363r19 368m16 375r22
+. 379r22 382m13 382r22 391r10 393m10 398r33
+312i7 Scale{integer} 340m10 340r19 385m10 385r19 398r46
+315*7 XX{11|38I9} 334r10 335r25 335m44 348r29 349r25 349m44
+316*7 YY{11|38I9} 335r29 344m10 349r29
+319i7 J{natural} 347m7 348r13 386m10 386r15
+374i17 K{integer} 375r30
+378i17 K{integer} 379r46 379r57
+X 13 s-imagei.ads
+52I9 Int 12|77r7
+53M9 Uns 12|78r7
+61k16*Image_I 12|32w13 76r34 13|116e19
+82U14 Set_Image_Integer 12|86r22[76]
+X 15 s-imguti.ads
+36K16*Img_Util 12|33w13 33r34 15|82e20
+43U14*Set_Decimal_Digits 12|398s7
+

@@ -1,0 +1,5 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-suecin.adb"
+node: { title: "_ada_ada__strings__unbounded__equal_case_insensitive" label: "Equal_Case_Insensitive\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-suecin.adb:33:1\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "_ada_ada__strings__equal_case_insensitive" label: "Equal_Case_Insensitive\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-secain.ads:30:22" shape : ellipse }
+edge: { sourcename: "_ada_ada__strings__unbounded__equal_case_insensitive" targetname: "_ada_ada__strings__equal_case_insensitive" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-suecin.adb:44:22" }
+}

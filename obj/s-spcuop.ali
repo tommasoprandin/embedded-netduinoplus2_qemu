@@ -1,0 +1,46 @@
+V "GNAT Lib v15"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -fno-tree-loop-distribute-patterns
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -ffunction-sections
+A -fdata-sections
+A -fcallgraph-info=su,da
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.spark.cut_operations%b  s-spcuop.adb	a571a4dc NE OL PK
+W system.spark%s	s-spark.ads		s-spark.ali
+
+U system.spark.cut_operations%s  s-spcuop.ads	629c0fb7 NE OL PU PK
+W system.spark%s	s-spark.ads		s-spark.ali
+
+D system.ads		20250721163518 00104290 system%s
+D s-spark.ads		20250721163518 53f1c39d system.spark%s
+D s-spcuop.ads		20250721163518 316dcc2a system.spark.cut_operations%s
+D s-spcuop.adb		20250721163518 941c68f6 system.spark.cut_operations%b
+G a e
+G c Z s b [by system__spark__cut_operations 42 13 none]
+G c Z s b [so system__spark__cut_operations 50 13 none]
+X 1 system.ads
+50K9*System 167e11 3|36r9 57r5 4|32r14 42r5
+X 2 s-spark.ads
+35K16*SPARK 1|50k9 2|39e17 3|36r16 57r12 4|32r21 42r12
+X 3 s-spcuop.ads
+36K22*Cut_Operations 2|35k16 3|57l18 57e32 4|32b27 42l18 42t32
+

@@ -1,0 +1,6 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-swunau.adb"
+node: { title: "ada__strings__wide_unbounded__aux__get_wide_string" label: "Get_Wide_String\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-swunau.adb:38:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__strings__wide_unbounded__aux__set_wide_string__2" label: "Set_Wide_String\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-swunau.adb:55:4\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__strings__wide_unbounded__finalize__2" label: "Finalize\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-stwiun.ads:428:14" shape : ellipse }
+edge: { sourcename: "ada__strings__wide_unbounded__aux__set_wide_string__2" targetname: "ada__strings__wide_unbounded__finalize__2" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-swunau.adb:60:7" }
+}

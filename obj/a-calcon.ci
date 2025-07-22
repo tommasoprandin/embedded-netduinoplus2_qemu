@@ -1,0 +1,6 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-calcon.adb"
+node: { title: "ada__calendar__control__set_clock" label: "Set_Clock\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-calcon.adb:47:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__calendar__control__set_clock__2" label: "Set_Clock\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-calcon.adb:56:4\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__calendar__time_of" label: "Time_Of\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-calend.ads:100:13" shape : ellipse }
+edge: { sourcename: "ada__calendar__control__set_clock__2" targetname: "ada__calendar__time_of" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-calcon.adb:66:21" }
+}

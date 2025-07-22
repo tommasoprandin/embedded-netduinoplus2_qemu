@@ -1,0 +1,12 @@
+graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb"
+node: { title: "system__text_io__initialize" label: "Initialize\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb:42:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__is_tx_ready" label: "Is_Tx_Ready\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb:51:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__is_rx_ready" label: "Is_Rx_Ready\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb:57:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__get" label: "Get\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb:63:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__semihosting__get" label: "Get\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-semiho.ads:89:14" shape : ellipse }
+edge: { sourcename: "system__text_io__get" targetname: "system__semihosting__get" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb:66:25" }
+node: { title: "system__text_io__put" label: "Put\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb:74:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__semihosting__put" label: "Put\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-semiho.ads:83:14" shape : ellipse }
+edge: { sourcename: "system__text_io__put" targetname: "system__semihosting__put" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb:76:25" }
+node: { title: "system__text_io__use_cr_lf_for_new_line" label: "Use_Cr_Lf_For_New_Line\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-textio.adb:83:4\n0 bytes (static)\n0 dynamic objects" }
+}
