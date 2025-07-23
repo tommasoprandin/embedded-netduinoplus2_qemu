@@ -1,5 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-crc32.adb"
-node: { title: "system__crc32__get_value" label: "Get_Value\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-crc32.adb:111:4\n0 bytes (static)\n0 dynamic objects" }
-node: { title: "system__crc32__initialize" label: "Initialize\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-crc32.adb:120:4\n0 bytes (static)\n0 dynamic objects" }
-node: { title: "system__crc32__update" label: "Update\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-crc32.adb:129:4\n0 bytes (static)\n0 dynamic objects" }
-}

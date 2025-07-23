@@ -1,3 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-parame.adb"
-node: { title: "system__parameters__adjust_storage_size" label: "Adjust_Storage_Size\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-parame.adb:40:4\n0 bytes (static)\n0 dynamic objects" }
-}

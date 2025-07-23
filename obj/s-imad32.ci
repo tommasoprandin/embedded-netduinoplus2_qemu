@@ -1,3 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imad32.ads"
-node: { title: "system__img_address_32__impl__address_image" label: "Address_Image\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-imagea.adb:42:4\n32 bytes (static)\n0 dynamic objects" }
-}

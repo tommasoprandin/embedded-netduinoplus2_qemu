@@ -1,3 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-exnlli.ads"
-node: { title: "system__exn_lli__exponn_integer__expon" label: "Expon\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-exponn.adb:98:4\n12 bytes (static)\n0 dynamic objects" }
-}

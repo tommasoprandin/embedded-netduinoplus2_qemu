@@ -1,5 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-scaval.adb"
-node: { title: "system__scalar_values__initialize" label: "Initialize\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-scaval.adb:42:4\n72 bytes (static)\n0 dynamic objects" }
-node: { title: "__gnat_getenv" label: "Get_Env_Value_Ptr\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-scaval.adb:46:17" shape : ellipse }
-edge: { sourcename: "system__scalar_values__initialize" targetname: "__gnat_getenv" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-scaval.adb:110:10" }
-}

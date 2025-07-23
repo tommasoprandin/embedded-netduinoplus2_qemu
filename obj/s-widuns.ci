@@ -1,3 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-widuns.ads"
-node: { title: "system__wid_uns__width_uns__width" label: "Width\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-widthu.adb:44:4\n0 bytes (static)\n0 dynamic objects" }
-}

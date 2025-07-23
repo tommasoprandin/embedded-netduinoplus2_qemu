@@ -1,9 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-semiho.adb"
-node: { title: "system__semihosting__TbufferBIP" label: "TbufferBIP\n<built-in>\n0 bytes (static)\n0 dynamic objects" }
-node: { title: "system__semihosting__generic_sh_call" label: "Generic_Sh_Call\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-sgshca.adb:35:1\n0 bytes (static)\n0 dynamic objects" }
-node: { title: "system__semihosting__flush" label: "Flush\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-semiho.adb:88:4\n4 bytes (static)\n0 dynamic objects" }
-node: { title: "system__semihosting__sh_exit" label: "Sh_Exit\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-semiho.adb:108:4\n0 bytes (static)\n0 dynamic objects" }
-node: { title: "system__semihosting__put" label: "Put\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-semiho.adb:145:4\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "system__semihosting__put__2" label: "Put\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-semiho.adb:186:4\n32 bytes (static)\n0 dynamic objects" }
-node: { title: "system__semihosting__get" label: "Get\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-semiho.adb:197:4\n0 bytes (static)\n0 dynamic objects" }
-}

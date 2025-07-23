@@ -1,5 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-ransee.adb"
-node: { title: "system__random_seed__get_seed" label: "Get_Seed\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-ransee.adb:46:4\n0 bytes (static)\n0 dynamic objects" }
-node: { title: "ada__real_time__clock" label: "Clock\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/a-reatim.ads:79:13" shape : ellipse }
-edge: { sourcename: "system__random_seed__get_seed" targetname: "ada__real_time__clock" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-ransee.adb:48:22" }
-}

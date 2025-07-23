@@ -1,3 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-einuoc.adb"
-node: { title: "_ada_ada__exceptions__is_null_occurrence" label: "Is_Null_Occurrence\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-einuoc.adb:36:1\n0 bytes (static)\n0 dynamic objects" }
-}

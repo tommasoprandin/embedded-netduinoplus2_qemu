@@ -1,3 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-tasdeb.adb"
-node: { title: "system__tasking__debug__add_task_id" label: "Add_Task_Id\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-tasdeb.adb:54:4\n16 bytes (static)\n0 dynamic objects" }
-}

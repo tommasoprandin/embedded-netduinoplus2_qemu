@@ -1,3 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-szmzco.ads"
-node: { title: "ada__strings__wide_wide_maps__wide_wide_constants___elabs" label: "Wide_Wide_Constants\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-szmzco.ads:38:1\n4 bytes (static)\n0 dynamic objects" }
-}

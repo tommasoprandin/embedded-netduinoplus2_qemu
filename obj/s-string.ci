@@ -1,7 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-string.adb"
-node: { title: "system__strings__string_listIP" label: "string_listIP\n<built-in>\n4 bytes (static)\n0 dynamic objects" }
-node: { title: "system__strings__free__2" label: "Free\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-string.adb:38:4\n32 bytes (static)\n0 dynamic objects" }
-node: { title: "__gnat_free" label: "gnat_free\n<built-in>" shape : ellipse }
-edge: { sourcename: "system__strings__free__2" targetname: "__gnat_free" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-string.adb:48:13" }
-edge: { sourcename: "system__strings__free__2" targetname: "__gnat_free" label: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/s-string.adb:54:7" }
-}

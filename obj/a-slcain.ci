@@ -1,3 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-slcain.adb"
-node: { title: "_ada_ada__strings__less_case_insensitive" label: "Less_Case_Insensitive\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnat/a-slcain.adb:32:1\n20 bytes (static)\n0 dynamic objects" }
-}

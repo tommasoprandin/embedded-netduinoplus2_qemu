@@ -1,5 +1,0 @@
-graph: { title: "/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-bcpcst.adb"
-node: { title: "system__bb__cpu_primitives__context_switch_trigger__initialize_context_switch" label: "Initialize_Context_Switch\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-bcpcst.adb:65:4\n0 bytes (static)\n0 dynamic objects" }
-node: { title: "system__bb__cpu_primitives__context_switch_trigger__trigger_context_switch" label: "Trigger_Context_Switch\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-bcpcst.adb:72:4\n0 bytes (static)\n0 dynamic objects" }
-node: { title: "__gnat_pend_sv_trap" label: "Pend_Sv_Handler\n/Users/tommy/.local/share/alire/toolchains/gnat_arm_elf_15.1.2_6dad003a/arm-eabi/lib/gnat/embedded-olimex_stm32_h405/gnarl/s-bcpcst.adb:91:4\n0 bytes (static)\n0 dynamic objects" }
-}

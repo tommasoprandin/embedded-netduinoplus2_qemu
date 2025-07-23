@@ -74,3 +74,5 @@ then the Ravenscar:
 ```
 alr exec -- gprbuild -P ravenscar_build.gpr
 ```
+
+If Alire complains of `origin missing` or similar, try first launching `alr build` (it will fail). Then retry again the two previous commands.
